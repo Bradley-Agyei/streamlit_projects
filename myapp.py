@@ -20,7 +20,7 @@ tickerData1 = yf.Ticker(tickerSymbol1)
 tickerDf = tickerData.history(period='1d', start='2010-5-31', end=None)
 tickerDf1 = tickerData1.history(period='1d', start='2010-5-31', end=None)
 
-#Dataframe colums include - Open High Low Close Volume Dividends Stock Splits
+#Dataframe columns include - Open High Low Close Volume Dividends Stock Splits
 
 #Creates a line chart for these two columns from dataframe  
 st.write("""
